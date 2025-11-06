@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Ventsharm Blogs</title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#ffffff">
-
-  <script>
-    // This immediately redirects to your real Blogger site
+<script>
+  // Delay redirect to give crawlers time to detect PWA manifest
+  setTimeout(() => {
     window.location.href = "https://www.ventsharmblogs.co.uk";
-  </script>
-</head>
-<body>
-  <p>Redirecting to Ventsharm Blogs...</p>
-</body>
-</html>
+  }, 2000); // 2-second delay
+</script>

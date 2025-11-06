@@ -5,22 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Ventsharm Blogs</title>
 
+  <!-- Manifest & PWA setup -->
   <link rel="manifest" href="/blogger-pwa-shell/manifest.webmanifest">
-
-  <!-- Theme color for install prompt -->
   <meta name="theme-color" content="#ffffff">
-
-  <!-- Optional: description for better detection -->
   <meta name="description" content="Ventsharm Blogs Progressive Web App Shell">
 
   <script>
-    // Delay redirect to give PWA Builder and browsers time to detect manifest
-    setTimeout(() => {
-      window.location.href = "https://www.ventsharmblogs.co.uk";
-    }, 2000); // 2-second delay
+    // Instant redirect to your Blogger site
+    window.location.replace("https://www.ventsharmblogs.co.uk");
   </script>
 </head>
 <body>
-  <p>Launching Ventsharm Blogs...</p>
+  <noscript>
+    <p>Redirecting to Ventsharm Blogs...</p>
+  </noscript>
 </body>
 </html>

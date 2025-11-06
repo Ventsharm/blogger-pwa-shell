@@ -1,6 +1,27 @@
-<script>
-  // Delay redirect to give crawlers time to detect PWA manifest
-  setTimeout(() => {
-    window.location.href = "https://www.ventsharmblogs.co.uk";
-  }, 2000); // 2-second delay
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ventsharm Blogs</title>
+
+  <!-- PWA manifest -->
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Theme color for install prompt -->
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Optional: description for better detection -->
+  <meta name="description" content="Ventsharm Blogs Progressive Web App Shell">
+
+  <script>
+    // Delay redirect to give PWA Builder and browsers time to detect manifest
+    setTimeout(() => {
+      window.location.href = "https://www.ventsharmblogs.co.uk";
+    }, 2000); // 2-second delay
+  </script>
+</head>
+<body>
+  <p>Launching Ventsharm Blogs...</p>
+</body>
+</html>

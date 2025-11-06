@@ -1,13 +1,13 @@
 {
-  "name": "Ventsharm Budget",
-  "short_name": "Budget",
-  "description": "Track income, expenses, and available balance with Firebase sync across devices.",
-  "id": "ventsharm-budget-app-v1",
+  "name": "Ventsharm Blogs",
+  "short_name": "Ventsharm",
+  "description": "A PWA shell that redirects to Ventsharm Blogs.",
+  "id": "ventsharm-blogs-shell-v1",
   "start_url": "/blogger-pwa-shell/",
   "scope": "/blogger-pwa-shell/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/blogger-pwa-shell/Icon-192.png",
